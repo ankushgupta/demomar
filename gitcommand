@@ -1,0 +1,102 @@
+90  apt-get install git
+   91  ls -l
+   92  mkdir demo
+   93  ls -l
+   94  cd demo/
+   95  ls -l
+   96  ls -la
+   97  git init 
+   98  ls -la
+   99  cd ..
+  100  ls -l
+  101  mkdir demo1
+  102  ls -l
+  103  cd demo
+  104  cd ..
+  105  cd demo1
+  106  ls -l
+  107  ls -la
+  108  touch 1
+  109  ls -l
+  110  git add 1
+  111  cd ..
+  112  cd demo
+  113  ls -l
+  114  ls -la
+  115  echo "helloworld" > file1
+  116  cat file1 
+  117  git status
+  118  git add file1
+  119  git status
+  120  git commit -m "create new file"
+  121  git status
+  122  git log
+  123  vim file1
+  124  git status
+  125  git add file1
+  126  git status
+  127  git commit -m "add new feature"
+  128  git log
+  129  ls -l
+  130  git status
+  131  CD ..
+  132  cd ..
+  133  git clone https://github.com/ankushgupta/demomar.git
+  134  ls -l
+  135  cd demomar/
+  136  ls -l
+  137  ls -la
+  138  echo "test" > file1
+  139  git satus
+  140  git status
+  141  git add  file1
+  142  ls -l
+  143  git status
+  144  git commit -m "initial commit"
+  145  ls -l
+  146  git status
+  147  git push
+  148  ssh-keygen
+  149  cat /root/.ssh/id_rsa.pub 
+  150  cd ..
+  151  rm -rf demomar/
+  152  git clone git@github.com:ankushgupta/demomar.git
+  153  ls -l
+  154  cd demomar/
+  155  ls -la
+  156  echo "test" > file1
+  157  git add  file1
+  158  git commit -m "initial commit"
+  159  git push
+  160  cat file1 
+  161  git log
+  162  cd ..
+  163  ls- l
+  164  ls -l
+  165  rm -rf demomar/
+  166  git clone git@github.com:ankushgupta/demomar.git
+  167  ls -l
+  168  cd demomar/
+  169  ls -l
+  170  git branch
+  171  git checkout -b sunil
+  172  git branch
+  173  ls -l
+  174  vim file1 
+  175  git status
+  176  git add  file1
+  177  git commit -m "new feature added"
+  178  git push
+  179  git push --set-upstream origin sunil
+  180  git log
+  181  git branch
+  182  git checkout master
+  183  cat file1 
+  184  git pull
+  185  ls -l
+  186  cat file1 
+  187  git checkout sunil
+  188  git merge master
+  189  cat file1 
+  190  git log
+  191  history 
