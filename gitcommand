@@ -267,4 +267,11 @@ b2d74cbc79268f49bd0c66f4
   354  git commit -m "resolve conflicts file4"
   355  git push origin master
   356  history 
-  
+  357  git branch
+  358  git checkout dev2
+  359  git push dev2 frozen
+  360  git tag -a frozen -m "frozing this branch"
+  361  git push dev2 frozen
+  362  git push origin dev2 frozen
+  363  git remote -v
+  364  history 
