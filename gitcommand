@@ -100,3 +100,32 @@
   189  cat file1 
   190  git log
   191  history 
+  192  git remote -v
+  193  history 
+  194  git remote -v
+  195  git remote --help
+  196  git remote remove origin
+  197  git remote -v
+  198  git remote add origin git@github.com:ankushgupta/demomar.git
+  199  git remote -v
+  200  git config --list
+  201  git config --help
+  202  git config --global user.email "ankur@intellipaat.com"
+  203  git config --global user.name "ankur"
+  204  git config --list
+  205  git branch
+  206  vim file1
+  207  git add file1 
+  208  git commit -m "testing config"
+  209  git push
+  210  git push --set-upstream origin sunil
+  211  git log
+  212  git remote add origin1 git@github.com:ankushgupta/demonov.git
+  213  git remote -v
+  214  git push origin1 sunil
+  215  git branch -a
+  216  ls -l
+  217  cd demomar/
+  218  ls -l
+  219  git branch
+  
