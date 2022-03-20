@@ -128,4 +128,143 @@
   217  cd demomar/
   218  ls -l
   219  git branch
+  220  vi file1 
+  221  git stash -u
+  222  git status
+  223  git checkout master
+  224  vim file1 
+  225  git status
+  226  git add file1 
+  227  git commit -m "testin gstash feature"
+  228  git push origin master
+  229  git pull
+  230  git pull origin master
+  231  git status
+  232  git commit -m "merge"
+  233  git status
+  234  git push origin master
+  235  git status
+  236  git checkout sunil
+  237  git status
+  238  cat file1 
+  239  git stash pop
+  240  git status
+  241  cat file1 
+  242  git add file1
+  243  git commit -m "testing feature"
+  244  git push
+  245  git status
+  246  vi file1
+  247  git status
+  248  git stash -u
+  249  git status
+  250  git stash pop
+  251  git branch -a
+  252  git log
+  253  git show 439a2b66564a51a1a40281419cbd3ff618ce7c43
+  254  git show --pretty="" --name-only 439a2b66564a51a1a40281419cbd3ff618
+ce7c43
+  255  git diff-tree 439a2b66564a51a1a40281419cbd3ff618ce7c43
+  256  git diff-tree f8d10b996333750f8eeccccb1e54f6bf4185e6bd
+  257  git revert f8d10b996333750f8eeccccb1e54f6bf4185e6bd
+  258  git status
+  259  git stash
+  260  git revert f8d10b996333750f8eeccccb1e54f6bf4185e6bd
+  261  vim file1 
+  262  git add file1
+  263  git stash pop
+  264  cat file1 
+  265  git stash
+  266  git checkout master
+  267  gi tlog
+  268  git log
+  269  git revert 1a8c83e619f5ff03e1f2a534ea18cc1e5a0f4e3e
+  270  vi file1 
+  271  git add  file1
+  272  git commit -m "resolving conflicts"
+  273  gi tpush
+  274  git push
+  275  git push --set-upstream origin master
+  276  git status
+  277  git revert --continue
+  278  cat file1 
+  279  cat file1
+  280  git log
+  281  git checkout -b conflict
+  282  git status
+  283  git push oring conflict
+  284  git push origin conflict
+  285  vi file1
+  286  git add file1
+  287  git commit -m "testing conflicts"
+  288  git push
+  289  git push --set-upstream origin conflict
+  290  git log
+  291  git revert 12b9370d021414a8e0ce335a9815422ba1b4433c 
+  292  git status
+  293  git push
+  294  git log
+  295  git reset --hard f6bbc414017c02f99051156b1437a24e6a9c45a6 
+  296  git log
+  297  cat file1
+  298  git log
+  299  git diff f6bbc414017c02f99051156b1437a24e6a9c45a6  5d4afaea26385442
+b2d74cbc79268f49bd0c66f4
+  300  git branch
+  301  git checkout master
+  302  git checkout -b dev1
+  303  ls -l
+  304  echo "file2" > file2
+  305  git add file2
+  306  git commit -m "file2"
+  307  git push origin dev1
+  308  git checkout master
+  309  git checkout -b dev2
+  310  echo "file3" > file3
+  311  git add file3
+  312  git commit -m "file3"
+  313  git push origin dev2
+  314  git checkout master
+  315  ls -l
+  316  git pull
+  317  ls -l
+  318  git checkout dev2
+  319  ls -l
+  320  git log
+  321  git rebase master
+  322  ls -l
+  323  git log
+  324  git branch
+  325  git status
+  326  git branch
+  327  git checkout dev1
+  328  vi file4
+  329  git add file4
+  330  git commit -m "file4"
+  331  git push 
+  332  git push --set-upstream origin dev1
+  333  cat file4
+  334  git checkout dev2
+  335  ls -l
+  336  vim file4
+  337  git add file4
+  338  git commit -m "file4"
+  339  git push 
+  340  git push --set-upstream origin dev2
+  341  git pull 
+  342  git pull origin dev2
+  343  git status
+  344  git push 
+  345  git push --set-upstream origin dev2
+  346  git checkout master
+  347  git pull
+  348  ls -l
+  349  cat file4
+  350  git merge dev2
+  351  vi file4
+  352  git add file4
+  353  git commit -m resolve conflicts "file4"
+  354  git commit -m "resolve conflicts file4"
+  355  git push origin master
+  356  history 
   
